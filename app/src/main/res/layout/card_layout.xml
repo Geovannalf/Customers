@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    app:barrierMargin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_200"
+        android:backgroundTint="@color/white"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/textStatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:text="Status" />
+
+        <TextView
+            android:id="@+id/textProfileImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:text="ProfileImage" />
+
+        <TextView
+            android:id="@+id/textProfileLink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:text="ProfileLink" />
+
+        <TextView
+            android:id="@+id/textPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:text="Phone" />
+
+        <TextView
+            android:id="@+id/textEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:text="Email" />
+
+        <TextView
+            android:id="@+id/textName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:text="Name" />
+
+        <TextView
+            android:id="@+id/textId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:textSize="24sp"
+            tools:text="Id" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
